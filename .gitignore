@@ -1,0 +1,41 @@
+# Node / TypeScript
+node_modules/
+dist/
+build/
+out/
+.tmp/
+tmp/
+temp/
+.cache/
+.npm/
+.pnpm-store/
+*.tsbuildinfo
+
+# Vite / Vitest / coverage
+.vite/
+.vitest/
+coverage/
+.nyc_output/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# Env (mantén un .env.example si quieres)
+.env
+.env.*
+!.env.example
+
+# SO / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Opcional: si transpilas JS junto a TS en la misma carpeta, descomenta:
+# *.js
+# *.js.map
