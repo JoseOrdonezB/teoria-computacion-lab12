@@ -1,9 +1,9 @@
 const lista: ReadonlyArray<string> = [
-  "rojo", "verde", "azul", "amarillo", "gris", "blanco", "negro",
+  "rojo", "verde", "azul", "amarillo", "gris", "blanco", "negro", "naranja", "cafe", "morado",
 ] as const;
 
 const borrar: ReadonlyArray<string> = [
-  "amarillo", "cafe", "blanco",
+  "rojo", "blanco", "naranja", "morado", "celeste",
 ] as const;
 
 const removeAll = <T>(xs: ReadonlyArray<T>, rm: ReadonlyArray<T>): T[] => {
